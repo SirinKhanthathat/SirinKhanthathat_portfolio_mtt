@@ -1,35 +1,280 @@
-ส
-สิรินทร์ ขันธทัต Sirin Khanthathat
-เกี่ยวกับฉัน การศึกษา ประสบการณ์/ค่าย ติดต่อ GitHub Repository
-เปิด GitHub
+<!DOCTYPE html>
+<html lang="th" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>สิรินทร์ ขันธทัต - Medical & Health Science Portfolio</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- FontAwesome Icons CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Google Fonts: Prompt & Inter -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Prompt:wght@300;400;500;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        sans: ['Prompt', 'Inter', 'sans-serif'],
+                    },
+                    colors: {
+                        medical: {
+                            50: '#f0f9ff',
+                            100: '#e0f2fe',
+                            500: '#0ea5e9',
+                            600: '#0284c7',
+                            700: '#0369a1',
+                            800: '#075985',
+                            900: '#0c4a6e',
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        body {
+            font-family: 'Prompt', 'Inter', sans-serif;
+        }
+        .glass-card {
+            background: rgba(255, 255, 255, 0.85);
+            backdrop-filter: blur(12px);
+            border: 1px solid rgba(255, 255, 255, 0.3);
+        }
+    </style>
+</head>
+<body class="bg-slate-50 text-slate-800 antialiased selection:bg-sky-500 selection:text-white">
 
-￼
+    <nav class="sticky top-0 z-40 bg-white/80 backdrop-blur-md border-b border-slate-100 shadow-sm">
+        <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between h-16 items-center">
+                <div class="flex items-center space-x-3">
+                    <div class="w-10 h-10 rounded-full bg-medical-600 text-white flex items-center justify-center font-bold text-lg shadow-md shadow-sky-200">
+                        ส
+                    </div>
+                    <div>
+                        <span class="font-bold text-lg text-slate-900 block leading-tight">สิรินทร์ ขันธทัต</span>
+                        <span class="text-xs text-medical-600 font-medium">Sirin Khanthathat</span>
+                    </div>
+                </div>
+                
+                <div class="hidden md:flex items-center space-x-6 text-sm font-medium text-slate-600">
+                    <a href="#about" class="hover:text-medical-600 transition-colors">เกี่ยวกับฉัน</a>
+                    <a href="#education" class="hover:text-medical-600 transition-colors">การศึกษา</a>
+                    <a href="#experience" class="hover:text-medical-600 transition-colors">ประสบการณ์/ค่าย</a>
+                    <a href="#contact" class="hover:text-medical-600 transition-colors">ติดต่อ</a>
+                    <a href="https://github.com/SirinKhanthathat/SirinKhanthathat_portfolio_mtt" target="_blank" rel="noopener noreferrer" class="bg-medical-600 hover:bg-medical-700 text-white px-4 py-2 rounded-full transition-all shadow-md shadow-sky-100 flex items-center gap-2">
+                        <span>GitHub Repository</span>
+                        <i class="fa-solid font-xs fa-arrow-up-right-from-square"></i>
+                    </a>
+                </div>
 
-คลิกที่รูปภาพเพื่อเปิดดูขนาดเต็ม
-ดูรูปขนาดเต็ม เปิดลิงก์รูปบน GitHub
-Medical & Health Science Portfolio
-สิรินทร์ ขันธทัต (Sirin Khanthathat)
-แฟ้มสะสมผลงานสำหรับการศึกษาต่อในระดับอุดมศึกษา สายวิทยาศาสตร์สุขภาพ มุ่งมั่นในการเรียนรู้ พัฒนาทักษะ และเข้าร่วมกิจกรรมค่ายทางการแพทย์อย่างต่อเนื่อง
-เปิดลิงก์รูปโปรไฟล์บน GitHub ประวัติและกิจกรรมสำคัญ
-Medical Camp
-ค่ายวิชาการทางการแพทย์
-Health Science
-วิทยาศาสตร์สุขภาพ
-Portfolio MTT
-แฟ้มสะสมผลงาน
-ข้อมูลและผลงานสำคัญ
+                <!-- Mobile Menu Link Button -->
+                <div class="md:hidden flex items-center">
+                    <a href="https://github.com/SirinKhanthathat/SirinKhanthathat_portfolio_mtt" target="_blank" class="bg-medical-600 text-white px-3 py-1.5 rounded-lg text-xs font-medium">
+                        เปิด GitHub
+                    </a>
+                </div>
+            </div>
+        </div>
+    </nav>
 
+    <section class="relative overflow-hidden bg-gradient-to-b from-sky-50 via-white to-slate-50 py-12 md:py-20">
+        <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
+                
+                <!-- Profile Image Block with Github Direct Image URL -->
+                <div class="lg:col-span-5 flex flex-col items-center">
+                    <div class="relative group">
+                        <!-- Glowing aura background effect -->
+                        <div class="absolute -inset-1.5 bg-gradient-to-r from-medical-500 to-teal-400 rounded-3xl blur opacity-30 group-hover:opacity-75 transition duration-500"></div>
+                        
+                        <!-- Image Container with Click Event -->
+                        <div onclick="openModal()" class="relative bg-white p-2 rounded-2xl shadow-xl cursor-pointer overflow-hidden transform group-hover:-translate-y-1 transition duration-300">
+                            <div class="w-64 sm:w-72 h-80 sm:h-96 rounded-xl overflow-hidden bg-slate-100 relative border border-slate-200">
+                                <!-- Direct GitHub Raw Image Link -->
+                                <img id="profileImg" 
+                                     src="https://raw.githubusercontent.com/SirinKhanthathat/SirinKhanthathat_portfolio_mtt/main/1792032965420.jpeg" 
+                                     alt="สิรินทร์ ขันธทัต (Sirin Khanthathat)" 
+                                     class="w-full h-full object-cover object-top transition-transform duration-500 group-hover:scale-105" 
+                                     onerror="this.onerror=null; this.src='image_3.png';">
+                                
+                                <!-- Overlay badge on image -->
+                                <div class="absolute bottom-3 right-3 bg-white/90 backdrop-blur-sm p-2 rounded-lg shadow-md border border-white/50 text-medical-700 hover:text-medical-900 transition-colors">
+                                    <i class="fa-solid fa-magnifying-glass-plus text-lg"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
 
-Medical Camp Training
-ผ่านการเข้าร่วมกิจกรรมฝึกอบรมและค่ายวิชาการด้านการแพทย์ (Medical Camp) เพื่อเสริมสร้างทักษะความพร้อม ความรู้พื้นฐานทางการแพทย์ และความเข้าใจในสายงานวิทยาศาสตร์สุขภาพ
+                    <!-- Image Subtitle & Direct Links -->
+                    <p class="text-xs text-slate-500 mt-3 flex items-center gap-1.5">
+                        <i class="fa-regular fa-hand-pointer text-medical-600"></i>
+                        คลิกที่รูปภาพเพื่อเปิดดูขนาดเต็ม
+                    </p>
 
-เป้าหมายทางการศึกษา
-มุ่งมั่นที่จะเข้าศึกษาต่อในระดับอุดมศึกษา สาขาวิทยาศาสตร์สุขภาพ / แพทยศาสตร์ เพื่อนำความรู้ ความเชี่ยวชาญ และความมุ่งมั่นไปพัฒนาและช่วยเหลือสังคมในฐานะบุคลากรทางการแพทย์ในอนาคต
-สิรินทร์ ขันธทัต (Sirin Khanthathat)
-Medical & Health Science Candidate
-GitHub Repository
-© 2026 สิรินทร์ ขันธทัต (Sirin Khanthathat) - All Rights Reserved.
-ปิดหน้าต่าง ￼
-สิรินทร์ ขันธทัต (Sirin Khanthathat)
-Medical Camp Profile Picture (1792032965420.jpeg)
-เปิดไฟล์รูปภาพใน GitHub แท็บใหม่
+                    <div class="flex gap-2 mt-4">
+                        <button onclick="openModal()" class="px-3.5 py-2 bg-white border border-slate-200 hover:border-medical-500 text-slate-700 hover:text-medical-600 text-xs font-medium rounded-xl shadow-sm transition-all flex items-center gap-1.5">
+                            <i class="fa-regular fa-image text-medical-600"></i>
+                            ดูรูปขนาดเต็ม
+                        </button>
+                        <a href="https://github.com/SirinKhanthathat/SirinKhanthathat_portfolio_mtt/blob/main/1792032965420.jpeg" target="_blank" class="px-3.5 py-2 bg-white border border-slate-200 hover:border-medical-500 text-slate-700 hover:text-medical-600 text-xs font-medium rounded-xl shadow-sm transition-all flex items-center gap-1.5">
+                            <i class="fa-solid fa-arrow-up-right-from-square text-medical-600"></i>
+                            เปิดลิงก์รูปบน GitHub
+                        </a>
+                    </div>
+                </div>
+
+                <div class="lg:col-span-7 text-center lg:text-left space-y-6">
+                    <div class="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-medical-50 border border-medical-100 text-medical-700 text-xs font-semibold tracking-wide uppercase">
+                        <i class="fa-solid fa-stethoscope"></i>
+                        Medical & Health Science Portfolio
+                    </div>
+                    
+                    <h1 class="text-3xl sm:text-4xl lg:text-5xl font-bold text-slate-900 tracking-tight leading-tight">
+                        สิรินทร์ ขันธทัต
+                        <span class="block text-xl sm:text-2xl text-medical-600 font-normal mt-2">(Sirin Khanthathat)</span>
+                    </h1>
+                    
+                    <p class="text-base sm:text-lg text-slate-600 max-w-2xl leading-relaxed">
+                        แฟ้มสะสมผลงานสำหรับการศึกษาต่อในระดับอุดมศึกษา สายวิทยาศาสตร์สุขภาพ มุ่งมั่นในการเรียนรู้ พัฒนาทักษะ และเข้าร่วมกิจกรรมค่ายทางการแพทย์อย่างต่อเนื่อง
+                    </p>
+
+                    <!-- Quick Links & Actions -->
+                    <div class="pt-2 flex flex-wrap gap-4 justify-center lg:justify-start">
+                        <a href="https://github.com/SirinKhanthathat/SirinKhanthathat_portfolio_mtt/blob/main/1792032965420.jpeg" target="_blank" class="px-6 py-3 bg-medical-600 hover:bg-medical-700 text-white font-medium rounded-xl shadow-lg shadow-sky-200 transition-all flex items-center gap-2">
+                            <i class="fa-brands fa-github"></i>
+                            เปิดลิงก์รูปโปรไฟล์บน GitHub
+                        </a>
+                        <a href="#about" class="px-6 py-3 bg-white hover:bg-slate-100 text-slate-700 font-medium rounded-xl border border-slate-200 shadow-sm transition-all flex items-center gap-2">
+                            <i class="fa-regular fa-user"></i>
+                            ประวัติและกิจกรรมสำคัญ
+                        </a>
+                    </div>
+
+                    <!-- Highlight Badges -->
+                    <div class="pt-6 border-t border-slate-200/60 grid grid-cols-2 sm:grid-cols-3 gap-4 text-left">
+                        <div class="bg-white/60 p-3.5 rounded-xl border border-slate-100 shadow-xs">
+                            <div class="text-medical-600 font-bold text-lg">Medical Camp</div>
+                            <div class="text-xs text-slate-500">ค่ายวิชาการทางการแพทย์</div>
+                        </div>
+                        <div class="bg-white/60 p-3.5 rounded-xl border border-slate-100 shadow-xs">
+                            <div class="text-medical-600 font-bold text-lg">Health Science</div>
+                            <div class="text-xs text-slate-500">วิทยาศาสตร์สุขภาพ</div>
+                        </div>
+                        <div class="bg-white/60 p-3.5 rounded-xl border border-slate-100 col-span-2 sm:col-span-1 shadow-xs">
+                            <div class="text-medical-600 font-bold text-lg">Portfolio MTT</div>
+                            <div class="text-xs text-slate-500">แฟ้มสะสมผลงาน</div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="py-16 bg-white">
+        <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center max-w-3xl mx-auto mb-12">
+                <h2 class="text-2xl sm:text-3xl font-bold text-slate-900">ข้อมูลและผลงานสำคัญ</h2>
+                <div class="w-16 h-1 bg-medical-600 mx-auto mt-3 rounded-full"></div>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                <!-- Training Card -->
+                <div class="p-6 rounded-2xl bg-slate-50 border border-slate-100 hover:shadow-md transition-shadow">
+                    <div class="w-12 h-12 bg-medical-100 rounded-xl flex items-center justify-center text-medical-600 mb-4">
+                        <i class="fa-solid fa-user-doctor text-xl"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-slate-900 mb-2">Medical Camp Training</h3>
+                    <p class="text-slate-600 leading-relaxed text-sm">
+                        ผ่านการเข้าร่วมกิจกรรมฝึกอบรมและค่ายวิชาการด้านการแพทย์ (Medical Camp) เพื่อเสริมสร้างทักษะความพร้อม ความรู้พื้นฐานทางการแพทย์ และความเข้าใจในสายงานวิทยาศาสตร์สุขภาพ
+                    </p>
+                </div>
+
+                <!-- Goals Card -->
+                <div class="p-6 rounded-2xl bg-slate-50 border border-slate-100 hover:shadow-md transition-shadow">
+                    <div class="w-12 h-12 bg-teal-100 rounded-xl flex items-center justify-center text-teal-600 mb-4">
+                        <i class="fa-solid fa-bullseye text-xl"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-slate-900 mb-2">เป้าหมายทางการศึกษา</h3>
+                    <p class="text-slate-600 leading-relaxed text-sm">
+                        มุ่งมั่นที่จะเข้าศึกษาต่อในระดับอุดมศึกษา สาขาวิทยาศาสตร์สุขภาพ / แพทยศาสตร์ เพื่อนำความรู้ ความเชี่ยวชาญ และความมุ่งมั่นไปพัฒนาและช่วยเหลือสังคมในฐานะบุคลากรทางการแพทย์ในอนาคต
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer id="contact" class="bg-slate-900 text-white py-12">
+        <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex flex-col md:flex-row justify-between items-center gap-6 border-b border-slate-800 pb-8 mb-8">
+                <div>
+                    <h3 class="text-xl font-bold">สิรินทร์ ขันธทัต (Sirin Khanthathat)</h3>
+                    <p class="text-slate-400 text-sm mt-1">Medical & Health Science Candidate</p>
+                </div>
+                <div class="flex gap-4">
+                    <a href="https://github.com/SirinKhanthathat/SirinKhanthathat_portfolio_mtt" target="_blank" class="px-4 py-2 bg-slate-800 hover:bg-slate-700 text-slate-200 text-sm font-medium rounded-lg transition-colors flex items-center gap-2">
+                        <i class="fa-brands fa-github text-lg"></i>
+                        GitHub Repository
+                    </a>
+                </div>
+            </div>
+            <div class="text-center md:text-left text-xs text-slate-500">
+                © 2026 สิรินทร์ ขันธทัต (Sirin Khanthathat) - All Rights Reserved.
+            </div>
+        </div>
+    </footer>
+
+    <div id="imageModal" class="fixed inset-0 z-50 bg-black/90 hidden items-center justify-center p-4 backdrop-blur-md transition-opacity duration-300" onclick="closeModal()">
+        <div class="relative max-w-4xl w-full max-h-[90vh] flex flex-col items-center" onclick="event.stopPropagation()">
+            <!-- Close Button -->
+            <button onclick="closeModal()" class="absolute -top-12 right-0 text-white hover:text-slate-300 text-sm font-medium px-3 py-1.5 rounded-lg bg-white/10 backdrop-blur-md flex items-center gap-2 focus:outline-none">
+                <i class="fa-solid fa-xmark text-lg"></i> ปิดหน้าต่าง
+            </button>
+            
+            <!-- Modal Image -->
+            <img id="modalImg" 
+                 src="https://raw.githubusercontent.com/SirinKhanthathat/SirinKhanthathat_portfolio_mtt/main/1792032965420.jpeg" 
+                 alt="สิรินทร์ ขันธทัต - รูปภาพขยายใหญ่" 
+                 class="max-h-[80vh] w-auto rounded-xl shadow-2xl object-contain border border-slate-700/50" 
+                 onerror="this.onerror=null; this.src='image_3.png';">
+            
+            <!-- Modal Caption -->
+            <div class="mt-4 text-center text-white">
+                <h4 class="font-bold text-lg">สิรินทร์ ขันธทัต (Sirin Khanthathat)</h4>
+                <p class="text-slate-400 text-xs mt-0.5">Medical Camp Profile Picture (1792032965420.jpeg)</p>
+                <a href="https://github.com/SirinKhanthathat/SirinKhanthathat_portfolio_mtt/blob/main/1792032965420.jpeg" target="_blank" class="inline-flex items-center gap-1.5 mt-2 text-xs text-sky-400 hover:text-sky-300 hover:underline">
+                    <i class="fa-solid fa-arrow-up-right-from-square"></i> เปิดไฟล์รูปภาพใน GitHub แท็บใหม่
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        function openModal() {
+            const modal = document.getElementById('imageModal');
+            modal.classList.remove('hidden');
+            modal.classList.add('flex');
+            document.body.style.overflow = 'hidden';
+        }
+
+        function closeModal() {
+            const modal = document.getElementById('imageModal');
+            modal.classList.add('hidden');
+            modal.classList.remove('flex');
+            document.body.style.overflow = 'auto';
+        }
+
+        // Close modal on ESC key
+        document.addEventListener('keydown', function(e) {
+            if (e.key === 'Escape') {
+                closeModal();
+            }
+        });
+    </script>
+</body>
+</html>
